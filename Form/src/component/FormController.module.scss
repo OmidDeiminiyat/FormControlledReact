@@ -1,0 +1,29 @@
+.form {
+    width: 50%;
+    margin-left: 25%;
+    border: 1px solid white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    input{
+        width: 40%;
+        height: 27px;
+        border-radius: 21px;
+        border: none;
+    }
+    label{
+        color: white;
+    }
+    button{
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 30px;
+        min-height: 21px;
+        background-color: rgb(26, 169, 138);
+        color: white;
+        border-radius: 21px;
+        border: none;
+        height: 30px;
+        cursor: pointer;
+    }
+}
